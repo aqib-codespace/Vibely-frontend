@@ -1,0 +1,51 @@
+.global-search-dropdown::-webkit-scrollbar {
+  width: 8px;
+}
+
+.global-search-dropdown::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+.global-search-dropdown::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 8px;
+}
+
+.global-search-dropdown::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0;
+}
+
+.global-search-highlight {
+  background-color: rgba(59, 130, 246, 0.2);
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 0 2px;
+}
+
+/* Tab styles to match reference image */
+.global-search-tab-active {
+  border-bottom: 2px solid #1d4ed8;
+  color: #1d4ed8;
+  font-weight: 500;
+}
+
+/* Better spacing for search results */
+.global-search-section {
+  padding: 12px 0;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.global-search-section:last-child {
+  border-bottom: none;
+}
+
+/* Improved user card styles */
+.global-search-user-card {
+  transition: all 0.2s;
+}
+
+.global-search-user-card:hover {
+  background-color: #f9fafb;
+  transform: translateY(-1px);
+}

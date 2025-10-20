@@ -1,0 +1,35 @@
+.search-result-highlight mark,
+.search-highlight mark {
+  background-color: rgba(255, 213, 0, 0.4);
+  color: inherit;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+.search-highlight {
+  position: relative;
+}
+
+/* Message highlight animation */
+.message-highlight {
+  animation: pulse-highlight 2.5s ease-in-out;
+  position: relative;
+  z-index: 1;
+  border-radius: 8px;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.3);
+}
+
+@keyframes pulse-highlight {
+  0% {
+    background-color: rgba(59, 130, 246, 0.15);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.3);
+  }
+  50% {
+    background-color: rgba(59, 130, 246, 0.25);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+  }
+  100% {
+    background-color: transparent;
+  }
+}
