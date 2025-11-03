@@ -1,6 +1,6 @@
 import axios from "axios";
 import { redirect } from "next/navigation";
-const BASE_URL = process.env.BACKEND_BASE_URL;
+const BASE_URL = process.env.NEXT_PUBLIC_BACKEND_BASE_URL;
 console.log("BASE_URL:", BASE_URL);
 export const axiosPublicApi = axios.create({
   baseURL: BASE_URL,
