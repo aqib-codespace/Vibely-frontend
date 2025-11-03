@@ -2,7 +2,7 @@ import { io } from "socket.io-client";
 import React from "react";
 
 const BACKEND_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:4000";
+  process.env.NEXT_PUBLIC_API_BASE_URL;
 
 console.log("🔌 Socket connecting to:", BACKEND_URL);
 
