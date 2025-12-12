@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
           <SocketProvider>
             <NotificationProvider>
               <AuthWrapper>{children}</AuthWrapper>
-              <AIAssistantWrapper />
+             
               <Toaster />
             </NotificationProvider>
           </SocketProvider>
